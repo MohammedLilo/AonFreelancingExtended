@@ -13,7 +13,7 @@ namespace AonFreelancing.Controllers.Mobile.v1
     [ApiController]
     public class AuthController : BaseController
     {
-        readonly AuthService _authService;
+        private readonly AuthService _authService;
         public AuthController(AuthService authService)
         {
             _authService = authService;
